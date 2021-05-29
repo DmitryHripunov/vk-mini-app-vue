@@ -2,7 +2,7 @@
   <div class="hero is-small">
     <div class="hero-body">
       <article class="panel is-info">
-        <p class="panel-heading">Список побадителей</p>
+        <p class="panel-heading">Список победителей</p>
 
         <Preloader v-if="productsLoading" />
 
