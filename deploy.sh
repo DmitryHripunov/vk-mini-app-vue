@@ -14,6 +14,6 @@ git init
 git add -A
 git commit -m "deploy"
 
-git push -f https://github.com/DmitryHripunov/vk-mini-app-vue.git main:gh-pages
+git push -f https://github.com/DmitryHripunov/test-vk-mini-app-vue.git main:gh-pages
 
 cd -

@@ -2,7 +2,7 @@
   <body>
     <Header />
 
-    <main class="tile">
+    <main class="main">
       <div class="container">
         <router-view />
       </div>
@@ -20,3 +20,10 @@ export default {
   components: { Header, Footer },
 };
 </script>
+
+<style>
+.main {
+  min-height: calc(100vh - 60px);
+  height: 100%;
+}
+</style>

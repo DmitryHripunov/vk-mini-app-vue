@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/vk-mini-app-vue/'
+  publicPath: '/test-vk-mini-app-vue/'
 }

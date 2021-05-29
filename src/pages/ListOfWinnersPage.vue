@@ -47,7 +47,7 @@ export default {
 
       this.loadProductTimer = setTimeout(() => {
         axios
-          .get(API_BASE_URL)
+          .get(`${API_BASE_URL}/users`)
           .then((response) => {
             this.usersData = response.data.data;
           })

@@ -8,7 +8,7 @@ import NotFoundPage from '@/pages/NotFoundPage.vue';
 Vue.use(VueRouter);
 
 const routes = [
-  { name: 'main', component: MainPage, path: '/main/' },
+  { name: 'main', component: MainPage, path: '/' },
   { name: 'events', component: EventsPage, path: '/events/' },
   { name: 'winers', component: ListOfWinnersPage, path: '/winers/' },
   { name: 'notFound', component: NotFoundPage, path: '/404' },
@@ -17,8 +17,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  linkActiveClass: 'is-active',
-  mode: 'history',
+  // linkActiveClass: 'is-active',
 });
 
 export default router;

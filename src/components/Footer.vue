@@ -28,3 +28,13 @@
 <script>
 export default {};
 </script>
+
+<style >
+.footer {
+  padding: 0 0 52px 0 !important;
+}
+
+.navbar-start {
+  display: flex;
+}
+</style>
