@@ -7,7 +7,6 @@ import bridge from '@vkontakte/vk-bridge';
 import 'bulma/css/bulma.css';
 
 bridge.send("VKWebAppInit", {});
-bridge.subscribe((e) => console.log(e));
 
 Vue.config.productionTip = false
 

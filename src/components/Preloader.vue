@@ -1,25 +1,32 @@
 <template>
-  <div class="loader">
-    <div class="item-loader item-1"></div>
-    <div class="item-loader item-2"></div>
-    <div class="item-loader item-3"></div>
-    <div class="item-loader item-4"></div>
+  <div class="spiner-wrapper">
+    <div class="spiner">
+      <div class="item-spiner item-1"></div>
+      <div class="item-spiner item-2"></div>
+      <div class="item-spiner item-3"></div>
+      <div class="item-spiner item-4"></div>
+    </div>
   </div>
 </template>
 
 <style>
-.loader {
+.spiner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.spiner {
   position: absolute;
   width: 50px;
   height: 50px;
   top: 30%;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
   margin: auto;
+  transform: translateX(-50%);
 }
 
-.item-loader {
+.item-spiner {
   width: 10px;
   height: 10px;
   position: absolute;

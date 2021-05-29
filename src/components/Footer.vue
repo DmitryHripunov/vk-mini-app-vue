@@ -17,7 +17,7 @@
           </router-link>
 
           <router-link class="navbar-item" :to="{ name: 'winers' }">
-            Список побадителей
+            Список победителей
           </router-link>
         </div>
       </div>

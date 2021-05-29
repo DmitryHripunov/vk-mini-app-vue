@@ -1,10 +1,7 @@
 <template>
-  <header class="hero is-small is-primary">
-    <div class="hero-body">
+  <header class="hero is-primary">
+    <div class="hero-body indent-top">
       <div class="container">
-        <!-- <h1 class="title has-text-centered-desktop"> -->
-        <!-- VK MINI APP -->
-
         <router-link
           tag="h1"
           class="title has-text-centered-desktop"
@@ -12,7 +9,6 @@
         >
           VK MINI APP
         </router-link>
-        <!-- </h1> -->
       </div>
     </div>
   </header>
@@ -21,3 +17,12 @@
 <script>
 export default {};
 </script>
+
+<style>
+@media (max-width: 1024px) {
+  .hero-body.indent-top {
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+}
+</style>
